@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | E-Shopper</title>
+    <title>Home | Benjamin</title>
     {!! Html::style('css/bootstrap.min.css')!!}
     {!! Html::style('css/font-awesome.min.css')!!}
     {!! Html::style('css/prettyPhoto.css')!!}
@@ -78,32 +78,19 @@
     <div class="header-bottom"><!--header-bottom-->
         <div class="container">
             <div class="row">
-                <div>
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
+                <div class="col-lg-2">
+                    <div class="categories-content-title">
+                        <a href="#"><i class="fa fa-bars"></i> DANH MỤC SẢN PHẨM</a>
                     </div>
-                    <div class="mainmenu pull-left">
-                        <ul class="nav navbar-nav collapse navbar-collapse">
-                            <li class="dropdown"><a href="#" class="active">Camera trọn bộ<i class="fa fa-angle-down"></i></a></li>
-                            <li class="dropdown"><a href="#">Camera giám sát<i class="fa fa-angle-down"></i></a>
-                                <ul role="menu" class="sub-menu">
-                                    <li><a href="#">Đầu ghi hình camera</a></li>
-                                    <li><a href="#">Phụ kiện camera</a></li>
-                                    <li><a href="#">Thiết bị an ninh</a></li>
-                                    <li><a href="#">Máy chấm công</a></li>
-                                    <li><a href="#">Tổng đài - Bộ đàm</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#">Đầu ghi hình camera<i class="fa fa-angle-down"></i></a></li>
-                            <li class="dropdown"><a href="#">Phụ kiện camera<i class="fa fa-angle-down"></i></a></li>
-                            <li class="dropdown"><a href="#">Thiết bị an ninh<i class="fa fa-angle-down"></i></a></li>
-                            <li class="dropdown"><a href="#">Máy chấm công<i class="fa fa-angle-down"></i></a></li>
-                        </ul>
+                    <div class="categories-list-box">
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="navbar-collapse channel-entrance" data-toggle="collapse">
+                        <a href="#"><i class="fa fa-star-o"></i> XU HƯỚNG</a>
+                        <a href="#"><i class="fa fa-tag"></i> KHUYẾN MÃI</a>
+                        <a href="#"><i class="fa fa-tags"></i> BÁN CHẠY</a>
+                        <a href="#"><i class="fa fa-trophy"></i> THƯƠNG HIỆU</a>
                     </div>
                 </div>
             </div>
@@ -262,8 +249,8 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
-                <p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+                <p class="pull-left">Copyright © 2013 BENJAMIN Inc. All rights reserved.</p>
+                <p class="pull-right">Designed by <span><a target="_blank" href="http://nguyenchituyen.esy.es">BENJAMIN INC</a></span></p>
             </div>
         </div>
     </div>
