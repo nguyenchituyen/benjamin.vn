@@ -46,6 +46,7 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lock"></i>Đăng nhập</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,18 +57,27 @@
     <div class="header-middle"><!--header-middle-->
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                     <div class="logo pull-left">
-                        <h1>LOGO</h1>
+                        <a href="#"><img src="images/home/logo.png" alt="" /></a>
+                    </div>
+                    <div class="benjamin-search">
+                        <form method="GET" onsubmit="">
+                            <div class="search-key-box pull-right">
+                                <input id="search_keyword" name="search_keyword" type="search" placeholder="Nhập từ khóa tìm kiếm"/>
+                            </div>
+                            <div class="search-box">
+                                <button id="search-btn" class="search-btn" title="Tìm Kiếm" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-4">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
                             <li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
                             <li><a href="#"><i class="fa fa-crosshairs"></i> Thanh toán</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
-                            <li><a href="#"><i class="fa fa-lock"></i> Đăng nhập</a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,10 +89,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
-                    <div class="categories-content-title">
-                        <a href="#"><i class="fa fa-bars"></i> DANH MỤC SẢN PHẨM</a>
-                    </div>
-                    <div class="categories-list-box">
+                    <div class="categories-main">
+                        <div class="categories-content-title">
+                            <a href="#"><i class="fa fa-bars"></i> DANH MỤC SẢN PHẨM</a>
+                        </div>
+                        <div class="categories-list-box">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -105,7 +120,7 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="companyinfo">
-                        <h2><span>e</span>-shopper</h2>
+                        <h2><span>Benjamin</span></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
                     </div>
                 </div>
