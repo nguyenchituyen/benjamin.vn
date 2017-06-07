@@ -307,11 +307,22 @@ a#scrollUp i{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 220px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
+.categories-list-box ul{
+    padding-left: 0px;
+}
+
+.categories-list-box ul li a span {
+    padding-left: 15px;
+}
+
+.categories-list-box ul li a i{
+    padding-right: 5px;
+}
 .categories-list-box a {
   color: black;
   padding: 12px 16px;
@@ -320,6 +331,8 @@ a#scrollUp i{
 }
 
 .categories-list-box a:hover {background-color: #f1f1f1}
+
+.categories-list-box ul li:hover .mc_title {color: #e60f1e}
 
 .categories-main:hover .categories-list-box {
   display: block;
@@ -481,6 +494,129 @@ a#scrollUp i{
   position: absolute;
   top: 50px;
 }
+
+/****Start footer widget*********/
+.social-claim {
+    background: #fd0;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.social-claim .claim_header {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.social-claim .claim {
+    font-size: 13px;
+    color: #333;
+    background: url(../images/danh-muc-san-pham/may-cham-cong-gia-re.png) no-repeat left center;
+    padding-left: 40px;
+    margin: 18px 0;
+}
+
+.social-claim2 .claim_header {
+    background: #fd0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.social-claim2 ul a:hover {
+    color: #ec252d;
+}
+
+.social-claim2 ul a {
+    font-size: 13px;
+    color: #555;
+    margin: 10px 4px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+.social-claim2 ul {
+    padding-left: 0px;
+}
+
+.social-claim2 ul li a {
+    padding-left: 5px;
+}
+
+#social_us {
+    border-top: 2px dashed #e1e1e1;
+    padding: 6px;
+}
+
+#social_us .social_us_header {
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+#f_social {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.bg-footer {
+    background: #404040;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.f-logo {
+    margin-top: 10px;
+}
+
+.f-logo img {
+    border: 3px solid #949494;
+    border-radius: 5px;
+    width: 190px;
+    height: 67px;
+}
+
+.f-address {
+    font-size: 14px;
+    color: #fff;
+}
+
+.f-address p {
+    line-height: 25px;
+}
+
+.f-address {
+    font-size: 14px;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/****End footer widget*********/
 
 .footer-widget {
   margin-bottom: 68px;
