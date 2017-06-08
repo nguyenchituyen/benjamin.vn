@@ -1,126 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Home | Benjamin</title>
-    {!! Html::style('css/bootstrap.min.css')!!}
-    {!! Html::style('css/font-awesome.min.css')!!}
-    {!! Html::style('css/prettyPhoto.css')!!}
-    {!! Html::style('css/price-range.css')!!}
-    {!! Html::style('css/animate.css')!!}
-    {!! Html::style('css/main.css')!!}
-    {!! Html::style('css/responsive.css')!!}
-
-    <!--[if lt IE 9]>
-    {!! Html::script('js/html5shiv.js')!!}
-    {!! Html::script('js/respond.min.js')!!}
-    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
-
-<body>
-<header id="header"><!--header-->
-    <div class="header_top"><!--header_top-->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="contactinfo">
-                        <ul class="nav nav-pills">
-                            <li><a href="#"><i class="fa fa-phone"></i> +090 333 8011</a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i> info@benjamin.vn</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="social-icons pull-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-lock"></i>Đăng nhập</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--/header_top-->
-
-    <div class="header-middle"><!--header-middle-->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="logo pull-left">
-                        <a href="#"><img src="images/home/camera-benjamin-gia-re-3.jpg" alt="" /></a>
-                    </div>
-                    <div class="benjamin-search">
-                        <form method="GET" onsubmit="">
-                            <div class="search-key-box pull-right">
-                                <input id="search_keyword" name="search_keyword" type="search" placeholder="Nhập từ khóa tìm kiếm"/>
-                            </div>
-                            <div class="search-box">
-                                <button id="search-btn" class="search-btn" title="Tìm Kiếm" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="shop-menu pull-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
-                            <li><a href="#"><i class="fa fa-crosshairs"></i> Thanh toán</a></li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--/header-middle-->
-
-    <div class="header-bottom"><!--header-bottom-->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="categories-main">
-                        <div class="categories-content-title">
-                            <a href="#"><i class="fa fa-bars"></i> DANH MỤC SẢN PHẨM</a>
-                        </div>
-                        <div class="categories-list-box">
-                            <ul>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/lap-dat-camera-tron-bo.png"><span class="mc_title"><strong>Camera trọn bộ</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/camera-giam-sat.png"><span class="mc_title"><strong>Camera giám sát</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/dau-ghi-hinh-camera-quan-sat.png"><span class="mc_title"><strong>Đầu ghi hình camera</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/phu-kien-camera.png"><span class="mc_title"><strong>Phụ kiện camera</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/camera-thiet-bi-an-ninh.png"><span class="mc_title"><strong>Thiết bị an ninh</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/may-cham-cong-gia-re.png"><span class="mc_title"><strong>Máy chấm công</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/tong-dai-bo-dam.png"><span class="mc_title"><strong>Tổng đài - Bộ đàm</strong></span></a></li>
-                                <li><a href="#"><img src="images/danh-muc-san-pham/thiet-bi-van-phong.png"><span class="mc_title"><strong>Thiết bị văn phòng</strong></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="navbar-collapse channel-entrance" data-toggle="collapse">
-                        <a href="#"><i class="fa fa-star-o"></i> XU HƯỚNG</a>
-                        <a href="#"><i class="fa fa-tag"></i> KHUYẾN MÃI</a>
-                        <a href="#"><i class="fa fa-tags"></i> BÁN CHẠY</a>
-                        <a href="#"><i class="fa fa-trophy"></i> THƯƠNG HIỆU</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--/header-bottom-->
-</header><!--/header-->
-
-
 <footer id="footer"><!--Footer-->
     <div class="footer-top">
         <div class="container">
@@ -132,13 +9,28 @@
                         <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
-                                    <img src="images/home/iframe1.png" alt="" />
+                                    <img src="images/camera-footer/camera-dahua.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
+                            <p>Dahua Technology</p>
+                            <h2>24 DEC 2008</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video-gallery text-center">
+                            <a href="#">
+                                <div class="iframe-img">
+                                    <img src="images/camera-footer/camera-hang-benco1.jpg" alt="" />
+                                </div>
+                                <div class="overlay-icon">
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </a>
+                            <p>BENCO</p>
                             <h2>24 DEC 2014</h2>
                         </div>
                     </div>
@@ -147,13 +39,13 @@
                         <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
-                                    <img src="images/home/iframe2.png" alt="" />
+                                    <img src="images/camera-footer/camera-hang-samsung.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
+                            <p>SAMSUNG</p>
                             <h2>24 DEC 2014</h2>
                         </div>
                     </div>
@@ -162,28 +54,13 @@
                         <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
-                                    <img src="images/home/iframe3.png" alt="" />
+                                    <img src="images/camera-footer/camera-hikvision-dai-loan.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <div class="video-gallery text-center">
-                            <a href="#">
-                                <div class="iframe-img">
-                                    <img src="images/home/iframe4.png" alt="" />
-                                </div>
-                                <div class="overlay-icon">
-                                    <i class="fa fa-play-circle-o"></i>
-                                </div>
-                            </a>
-                            <p>Circle of Hands</p>
+                            <p>HIKVISION</p>
                             <h2>24 DEC 2014</h2>
                         </div>
                     </div>
@@ -376,13 +253,3 @@
     </div>
 
 </footer><!--/Footer-->
-
-
-{!! Html::script('js/jquery.js')!!}
-{!! Html::script('js/bootstrap.min.js')!!}
-{!! Html::script('js/jquery.scrollUp.min.js')!!}
-{!! Html::script('js/price-range.js')!!}
-{!! Html::script('js/jquery.prettyPhoto.js')!!}
-{!! Html::script('js/main.js')!!}
-</body>
-</html>
