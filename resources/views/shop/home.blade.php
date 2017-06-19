@@ -118,9 +118,9 @@
                             <div id="camera-tron-bo" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="#">Trọn bộ camera giá rẻ </a></li>
-                                        <li><a href="#">Trọn bộ camera HD </a></li>
-                                        <li><a href="#">Camera nhập khẩu </a></li>
+                                        <li><a href="{{ url('/product') }}" >Trọn bộ camera giá rẻ </a></li>
+                                        <li><a href="{{ url('/product') }}">Trọn bộ camera HD </a></li>
+                                        <li><a href="{{ url('/') }}">Camera nhập khẩu </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -304,7 +304,7 @@
                                     <img src="images/home/camera-tron-bo-1.jpg" alt="" />
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="{{ url('product') }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">

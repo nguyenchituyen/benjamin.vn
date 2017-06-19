@@ -16,3 +16,5 @@
 //});
 
 Route::get('/', 'ShopController@index');
+
+Route::get('/product', 'ProductController@index');
